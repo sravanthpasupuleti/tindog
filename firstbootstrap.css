@@ -1,0 +1,186 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+  position: relative;
+}
+.first-big-heading{
+ font-family: "Montserrat-black";
+ font-size: 3.5rem;
+ color: #fff;
+}
+.second-big-heading{
+ font-size: 3rem;
+}
+.third-big-heading{
+  font-size: 2rem;
+}
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+h1 , h2 , h3 {
+  font-family: "Montserrat-bold"
+}
+     /* title */
+
+#Title{
+  text-align: left;
+}
+.container-fluid1{
+  padding: 4% 9% ;
+}
+@media (max-width : 768px) {
+  #Title{
+    padding: 10% 1%;
+  }
+  .first-big-heading{
+    font-size: 2.5rem;
+  }
+}
+
+      /* navabar */
+.container-fluid{
+  padding-bottom: 4rem;
+}
+.navbar{
+  font-family: sans-serif;
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: #fff;
+}
+.nav-item{
+  padding: 0% 7%;
+}
+.nav-link{
+  color: #fff;
+}
+
+     /* download button */
+
+.download-button{
+ margin: 4% 3% 5% 0;
+}
+
+     /* image1 */
+.img1{
+  width: 50%;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  transform: rotate(25deg);
+  position: relative;
+}
+@media (max-width : 990px) {
+  .img1{
+    width: 30%;
+  }
+}
+/* features */
+
+#features{
+  padding: 10% 7% 1% 7%;
+  bottom: 9rem;
+  position: relative;
+  z-index: 1;
+}
+.featurep{
+  color: #8f8f8f;
+}
+    /* fontawesome */
+.awesome{
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.awesome:hover{
+  color: #ff4c68;
+}
+@media (max-width : 1024px) {
+  #features {
+    padding: 7% 2% 0% 2%;
+  }
+}
+
+   /* testimonials */
+
+#testimonials{
+  padding: 10% 5% 10% 5%;
+  font-family: "Montserrat-bold";
+}
+.testimonials-img{
+  width: 15%;
+  border-radius:100%;
+  margin: 1rem;
+}
+.testimonials-pad{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+@media (max-width : 1024px) {
+  #testimonials{
+    padding:9% 0% ;
+  }
+  .second-big-heading{
+    font-size: 2rem;
+  }
+  .Testimonials-img{
+    width: 10%;
+  }
+}
+ /* press */
+ #press{
+   padding-bottom: 4rem;
+ }
+ .pressimg{
+   width: 15%;
+   margin: 2rem;
+ }
+
+    /* pricing */
+
+  #pricing{
+    padding : 10% 4%;
+  }
+  .Sign-up-btn{
+    width: 90%
+  }
+  @media (max-width :1024px ) {
+    #pricing {
+      padding: 7% 4%;
+      text-align: center;
+    }
+  }
+
+
+   /* cta */
+  #cta{
+     padding : 10% 20% ;
+   }
+   .cta-fa{
+     padding-right: 1rem;
+   }
+   @media (max-width : 1024px) {
+     .ctah3{
+       padding: 7% 2%;
+       font-size: 2rem;
+     }
+   }
+
+    /* footer */
+  #footer{
+    padding: 4rem;
+  }
+  .footer-fa{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .footerme{
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+    color: green;
+    font-size: 0.4rem;
+  }
